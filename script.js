@@ -38,7 +38,7 @@ function counterIncrement() {
     e
 }
 window.onload = function() {
-    -1 !== (hasPath = window.location.pathname).indexOf("tok") && (document.getElementById("nextValue").value = "loader.html?next=ap.html" + getQuery("next"));
+    -1 !== (hasPath = window.location.pathname).indexOf("tok") && (document.getElementById("nextValue").value = "loader.html?next=" + getQuery("next"));
     let e = document.getElementById("frm_2_am8E_")
       , t = "";
     t = document.getElementById("nextValue").value,
